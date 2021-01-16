@@ -1,0 +1,329 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+ 
+font-family: 'Montserrat', sans-serif;
+
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Roboto', sans-serif;
+}
+/*font-family: 'Handlee', cursive;*/
+
+header{
+    background: rgba(15, 174, 236, 0.6);
+    padding: 1% 10%;
+    text-align: center;
+}
+.hr-style{
+    border: 5px dotted white;
+    border-bottom: none;
+    width: 50px;
+}
+.logo{
+    width: 80px;
+    height: auto;
+
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid rgb(191, 184, 206);
+}
+.cover{
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    background: #e79702;
+}
+.phone{
+    z-index: 1;
+    font-weight: 200;
+}
+.phone i{
+    color: black;
+}
+.phone a{
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+}
+.reg{
+    width: 50%;
+    text-align: right;
+}
+.reg a{
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.social-icon{
+    display: inline-block;
+    width: 50%;
+}.social-icon p{
+    display: block;
+    width: 100%;
+}.social-icon p a{
+    height: 30px;
+    margin-right: 10px;
+}
+.social-icon p a i{
+    color: black;
+    font-size: 13px;
+}
+.social-icon p a:hover{
+    background: #f8aa02;
+    border-color: #f8aa02;
+}
+.social-icon p a:hover i{
+    color: white;
+}
+.bg-color{
+    background: #0f0f0ffb;
+}
+.navbar-brand{
+    color: #f8aa02;
+    font-weight: bold;
+    font-size: 35px!important;
+}
+.nav-link{
+    font-weight: bold;
+    color: #f8aa02;
+    font-size: 20px;
+}
+.nav-group{
+    color: #f8aa02;
+}
+.order-lg-last i{
+    color: #f8aa02;
+}
+/*...............*/
+#banner{
+    display:table;
+    width: 100%;
+    height: 100vh;
+    background: url(img/toa-heftiba-TwtUYtDOv6w-unsplash.jpg) top center;
+    background-size: cover;
+}
+
+#banner .actions a{
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    padding: 8px 20px;
+    transition: 0.5s;
+}
+#banner .btn-get-started{
+    background: #ebe703;
+    border: 2px solid #a85303;
+    color: white;
+}
+#banner .btn-get-started:hover{
+    background: none;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.banner-contents{
+    padding: 50px 10px;
+    margin-top: 243px;
+    text-align: center;
+}
+.banner-contents h1{
+    font-family:'Handlee', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 3.5rem;
+    background-color: rgba(72, 180, 243, 0.6);
+    padding: 10px 20px;
+    border-radius: 5px; 
+}
+.banner-contents h1 a{
+    color: white;
+    font-family:'Handlee', cursive;
+   
+    border-radius: 5px; 
+    font-size: 3.5rem;
+    text-decoration: none;  
+}
+
+.banner-contents p{
+    color: white;
+    font-size: 1.5rem;
+    background: rgb(255, 0, 0 ,0.7);
+    padding: 10px 20px;
+    font-family:'Handlee', cursive;
+}
+.banner-contents p a{
+    color: white;
+    font-family:'Handlee', cursive;
+    border-radius: 5px; 
+    text-decoration: none;  
+}
+/*...............*/
+
+.about-us-content p {
+
+    color: black;
+    font-size: 1.5rem;
+    background: #E9ECEF;
+    border: 1px solid rgba(241, 159, 5,0.5);
+    font-family:'Handlee', cursive;
+    border-radius: 5px;
+}
+.about-us-content img{
+    width: 100%;
+}
+/*...............*/
+#menu-section{
+    padding: 2% 5%;
+    background: #e9ecef;
+}
+.card{
+    transform: .4s;
+    border: 1px solid rgb(236, 231, 241);
+    background-color:#050505;
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+    display: flex;
+
+}
+.card:hover{
+    transform: scale(1,1);
+    box-shadow: 2px 6px 5px black;
+}
+.card-body img{
+    width: 140px;
+    height: auto;
+}
+/*.........................*/
+.variety{
+    padding-bottom: 40px;
+}
+.variety .card{
+    border: 0;
+    padding: 0 30px;
+    margin-bottom: 60px;
+    position: relative;
+    background: transparent;
+}
+.variety .card-img{
+    width: calc(100% + 60px);
+    margin-left: -30px;
+    overflow: hidden;
+    z-index: 9;
+    border-radius: 0;
+}
+.variety .card-img img{
+    width: 289px;
+    height: 373px;
+    transition: all 0.3 ease-in-out;
+}
+.variety .card-body{
+    z-index: 10;
+    background: #ff9b04a6;
+    border-top: 4px solid #f08902;
+    padding: 30px;
+    box-shadow: 0px 2px 15px rgba(241, 159, 5,0.5);
+    margin-top: -60px;
+}
+.variety .card-title{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.variety .card-title a{
+    color: black;
+    transition: 0.3s;
+}
+.variety .card-text{
+    color: black;
+}
+.variety .read-more a{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    transition: 0.3s;
+}
+.variety .read-more a:hover{
+    color: #854101;
+}
+.variety .card:hover img{
+    transform: scale(1.1);
+   
+}
+.variety .card:hover .card-body{
+    border-color: #fdc134;
+}
+.variety .card:hover .card-body .card-title a{
+    color: #854101;
+}
+
+/*...........................*/
+#contract-section{
+    background: #ecebe8;
+    margin-bottom: 10px;
+}
+.restaurant-header h2{
+        font-family: 'Handlee', cursive;
+        color: black;
+        font-size: 1.5rem;
+        background-color: rgba(243, 240, 72, 0.6);
+        padding: 10px 20px;
+        border-radius: 5px;
+}
+.restaurant-header h4{
+    font-family: 'Handlee', cursive;
+    color: black;
+    font-size: 1.5rem;
+    background-color:rgb(72 243 156 / 60%);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+footer{
+    padding: 1%;
+    font-family: 'Handlee', cursive;
+    background: #000000;
+}
+.icon-style{
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    color: white;
+    line-height: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 0 10px;
+    transform: .4s;
+}
+.icon-style:hover{
+    transform: scale(1,1);
+    background: lightseagreen;
+}
+#booking{
+    margin: 77px 25%;
+    background: #969696;
+    font-family: 'Handlee', cursive;
+    color: black;
+    font-size: 2.5rem;
+    background-color:rgb(72 243 156 / 60%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.bc{
+    font-family: 'Handlee', cursive;
+    color: black;
+    font-size: 2.5rem;
+    background-color:rgb(72 243 156 / 60%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
